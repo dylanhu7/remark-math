@@ -110,8 +110,8 @@ export function createPlugin(createRenderer) {
         return SKIP
       })
 
-      if (found && renderer.styleSheet) {
-        context.children.push(renderer.styleSheet())
-      }
+      // if (found && renderer.styleSheet) {
+      //   context.children.push(renderer.styleSheet())
+      // }
     }
 }
